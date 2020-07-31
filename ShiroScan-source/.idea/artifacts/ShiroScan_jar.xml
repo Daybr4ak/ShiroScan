@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShiroScan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShiroScan_jar</output-path>
+    <root id="archive" name="ShiroScan.jar">
+      <element id="module-output" name="ShiroScan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/shiro-web-1.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/shiro-core-1.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/slf4j-nop-1.7.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/slf4j-api-1.7.24.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

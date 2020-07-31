@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ShiroScan:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5850b18-40a2-426b-939f-76085366e10c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1eQtWV3pI1Seautpt9yykV5rcTu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5850b18-40a2-426b-939f-76085366e10c" name="Default Changelist" comment="" />
+      <created>1594265676039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594265676039</updated>
+      <workItem from="1594265679183" duration="1000" />
+      <workItem from="1594265810023" duration="107000" />
+      <workItem from="1594265935639" duration="3537000" />
+      <workItem from="1594271668084" duration="266000" />
+      <workItem from="1594272438495" duration="1327000" />
+      <workItem from="1594609652010" duration="1086000" />
+      <workItem from="1594611221178" duration="27000" />
+      <workItem from="1594776136659" duration="25000" />
+      <workItem from="1594800508793" duration="22000" />
+      <workItem from="1596160746170" duration="1736000" />
+      <workItem from="1596162558889" duration="478000" />
+      <workItem from="1596163118882" duration="19000" />
+      <workItem from="1596163321668" duration="138000" />
+      <workItem from="1596164144365" duration="1947000" />
+      <workItem from="1596172194865" duration="36000" />
+      <workItem from="1596172235038" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="672" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1594269106698">
+      <screen x="35" y="23" width="1645" height="1027" />
+    </state>
+    <state x="672" y="253" key="#com.intellij.ide.util.MemberChooser/35.23.1645.1027@35.23.1645.1027" timestamp="1594269106698" />
+    <state x="349" y="118" key="SettingsEditor" timestamp="1596162955752">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state x="347" y="118" key="SettingsEditor/35.23.1645.1027@35.23.1645.1027" timestamp="1594269473442" />
+    <state x="349" y="118" key="SettingsEditor/37.23.1643.1027@37.23.1643.1027" timestamp="1596162955752" />
+    <state x="536" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1594800508027">
+      <screen x="36" y="23" width="1644" height="1027" />
+    </state>
+    <state x="536" y="369" key="com.intellij.ide.util.TipDialog/35.23.1645.1027@35.23.1645.1027" timestamp="1594611222492" />
+    <state x="536" y="369" key="com.intellij.ide.util.TipDialog/36.23.1644.1027@36.23.1644.1027" timestamp="1594800508027" />
+    <state x="537" y="369" key="com.intellij.ide.util.TipDialog/37.23.1643.1027@37.23.1643.1027" timestamp="1594776136262" />
+    <state x="621" y="151" key="refactoring.ChangeSignatureDialog" timestamp="1594266359052">
+      <screen x="35" y="23" width="1645" height="1027" />
+    </state>
+    <state x="621" y="151" key="refactoring.ChangeSignatureDialog/35.23.1645.1027@35.23.1645.1027" timestamp="1594266359052" />
+  </component>
+</project>

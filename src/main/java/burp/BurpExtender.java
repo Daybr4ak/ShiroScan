@@ -54,6 +54,7 @@ public class BurpExtender extends AbstractTableModel implements IBurpExtender, I
         stdout.println("[+] 修复同站不同端口不检测问题  ");
         stdout.println("[+]     增加Key检测          ");
         stdout.println("[+]  修复多个deleteMe时漏报   ");
+        stdout.println("[+] 修复检测完key后列表才会显示 ");
         stdout.println("===========================");
         SwingUtilities.invokeLater(new Runnable() {
             @Override
@@ -115,10 +116,20 @@ public class BurpExtender extends AbstractTableModel implements IBurpExtender, I
                                 reqMethod,
                                 url.toString(),
                                 helpers.analyzeResponse(response).getStatusCode() + "",
-                                (String)mes.get(0),
-                                (IHttpRequestResponse)mes.get(1)
+                                "Waiting for test results",
+                                newIHttpRequestResponse
                         ));
                 fireTableRowsInserted(row,row);
+                List<Object> mes = FindKey(newIHttpRequestResponse, getRememberMeNumber(response));
+                this.Udatas.set(row, new TablesData(
+                        row,
+                        reqMethod,
+                        url.toString(),
+                        helpers.analyzeResponse(response).getStatusCode() + "",
+                        (String)mes.get(0),
+                        (IHttpRequestResponse)mes.get(1)
+                ));
+                fireTableRowsUpdated(row,row);
                 List<IScanIssue> issues = new ArrayList(1);
                 issues.add(new CustomScanIssue(
                         httpService,

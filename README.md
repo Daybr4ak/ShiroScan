@@ -17,7 +17,7 @@ burp插件 Shiroscan 主要用于框架、无dnslog key检测
 
 - 修复响应中包含多个rememberMe=deleteMe时漏报的问题
 - 将检测成功的cookie信息同步与request包中
-
+- 修复检测完key后列表才会显示,现在检测到为shiro框架后回先将url添加到列表中，等到key检测完再将key检测的结果更新
 
 
 师傅们在使用过程中遇到问题请及时反馈。感谢。
